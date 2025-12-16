@@ -1,4 +1,4 @@
-# Robotics Coursework Projects (ROS)
+# Robotics (CS 4750) Homeworks and Final Project) (ROS)
 
 This repository contains a series of robotics programming assignments implemented using ROS, NumPy, and Python. The projects progress from core ROS concepts to motion modeling, state estimation, planning, and control, using both a mobile robot platform (MuSHR) and a 6 DOF manipulator (WidowX 250). Together, these assignments form a cohesive introduction to modern robotics software pipelines, combining mathematical foundations with practical system implementation.
 
