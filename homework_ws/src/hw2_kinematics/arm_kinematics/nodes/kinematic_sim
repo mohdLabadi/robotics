@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""A trivial node implementing a kinenmatic simulator for the WidowX robot arm."""
+
+import tempfile
+
+import numpy as np
+import rospy
+from rospy.timer import TimerEvent
+from sensor_msgs.msg import JointState
+from urdf_parser_py.urdf import Robot
+
+
+class KinematicSim:
+    def __init__(self) -> None:
+
+        # Parse the robot's URDF from the ROS parameter server.
+        try:
+            urdf_xml = str(rospy.get_param("wx250s/robot_description"))
+            robot = Robot.from_xml_string(urdf_xml)
+
+            self.joint_names = [j.name for j in robot.joints]
+            self.moveable_joints = [j.name for j in robot.joints if j.type != 'fixed']
+            rospy.loginfo(f"Found {len(self.moveable_joints)} movable joints: {self.moveable_joints}")
+        except KeyError:
+            rospy.logerr("Could not find 'wx250s/robot_description' on the ROS parameter server.")
+            return
+        except Exception as e:
+            rospy.logerr(f"Failed to load robot model: {e}")
+            return
+
+        self.q = np.zeros(len(self.moveable_joints))
+        self.dq = np.zeros(len(self.moveable_joints))
+
+        # Manually set the gripper joints to be open.
+        self.q[-2:] = [0.025, -0.025]
+
+        # Parse the sim timestep from the parameter server.
+        dt = rospy.get_param("~dt", 0.01)
+        assert isinstance(dt, float) and dt > 0.0, "dt must be a positive float"
+        rospy.loginfo(f"Using sim timestep dt = {dt}")
+        self.dt: float = dt
+
+        self.publisher = rospy.Publisher('/wx250s/joint_states', JointState, queue_size=10)
+        self.subscriber = rospy.Subscriber('/wx250s/joint_commands', JointState, self.command_callback)
+        self.sim_timer = rospy.Timer(rospy.Duration.from_sec(self.dt), self.timer_callback)
+
+    def command_callback(self, msg: JointState) -> None:
+        """Callback function for joint command updates."""
+        # Create a dictionary mapping name to velocity from the message
+        velocity_map = dict(zip(msg.name, msg.velocity))
+
+        # Build the new dq array in the correct order
+        new_dq = np.zeros(len(self.moveable_joints))
+        for i, name in enumerate(self.moveable_joints):
+            if name in velocity_map:
+                new_dq[i] = velocity_map[name]
+
+        self.dq = new_dq
+
+    def timer_callback(self, event: TimerEvent) -> None:
+        """Callback function for sim timer events."""
+
+        # Simple Euler integration to update joint angles.   
+        self.q = self.q + self.dq * self.dt
+
+        # Publish the new joint state.
+        joint_state_msg = JointState()
+        joint_state_msg.header.stamp = rospy.Time.now()
+        joint_state_msg.name = self.moveable_joints
+        joint_state_msg.position = self.q.tolist()
+        joint_state_msg.velocity = self.dq.tolist()
+        self.publisher.publish(joint_state_msg)
+
+if __name__ == '__main__':
+    rospy.init_node('kinematic_sim_node')
+    rospy.loginfo("Creating kinematic simulator")
+    sim = KinematicSim()
+    rospy.spin()

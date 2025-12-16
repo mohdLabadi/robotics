@@ -1,0 +1,8 @@
+cs4750
+/home/maa366/finalhomework_ws/devel/.private/cs4750/cmake.lock /home/maa366/finalhomework_ws/devel/./cmake.lock
+/home/maa366/finalhomework_ws/devel/.private/cs4750/lib/pkgconfig/cs4750.pc /home/maa366/finalhomework_ws/devel/lib/pkgconfig/cs4750.pc
+/home/maa366/finalhomework_ws/devel/.private/cs4750/lib/python3/dist-packages/cs4750/__init__.py /home/maa366/finalhomework_ws/devel/lib/python3/dist-packages/cs4750/__init__.py
+/home/maa366/finalhomework_ws/devel/.private/cs4750/share/cs4750/cmake/cs4750Config.cmake /home/maa366/finalhomework_ws/devel/share/cs4750/cmake/cs4750Config.cmake
+/home/maa366/finalhomework_ws/devel/.private/cs4750/share/cs4750/cmake/cs4750Config-version.cmake /home/maa366/finalhomework_ws/devel/share/cs4750/cmake/cs4750Config-version.cmake
+/home/maa366/finalhomework_ws/devel/.private/cs4750/etc/catkin/profile.d/cs4750.bash /home/maa366/finalhomework_ws/devel/etc/catkin/profile.d/cs4750.bash
+/home/maa366/finalhomework_ws/devel/.private/cs4750/etc/catkin/profile.d/cs4750.zsh /home/maa366/finalhomework_ws/devel/etc/catkin/profile.d/cs4750.zsh

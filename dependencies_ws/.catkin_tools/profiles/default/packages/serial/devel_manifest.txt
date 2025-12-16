@@ -1,0 +1,7 @@
+cs4750_dependencies/serial
+/home/maa366/dependencies_ws/devel/.private/serial/cmake.lock /home/maa366/dependencies_ws/devel/./cmake.lock
+/home/maa366/dependencies_ws/devel/.private/serial/lib/libserial.so /home/maa366/dependencies_ws/devel/lib/libserial.so
+/home/maa366/dependencies_ws/devel/.private/serial/lib/pkgconfig/serial.pc /home/maa366/dependencies_ws/devel/lib/pkgconfig/serial.pc
+/home/maa366/dependencies_ws/devel/.private/serial/lib/serial/serial_example /home/maa366/dependencies_ws/devel/lib/serial/serial_example
+/home/maa366/dependencies_ws/devel/.private/serial/share/serial/cmake/serialConfig.cmake /home/maa366/dependencies_ws/devel/share/serial/cmake/serialConfig.cmake
+/home/maa366/dependencies_ws/devel/.private/serial/share/serial/cmake/serialConfig-version.cmake /home/maa366/dependencies_ws/devel/share/serial/cmake/serialConfig-version.cmake

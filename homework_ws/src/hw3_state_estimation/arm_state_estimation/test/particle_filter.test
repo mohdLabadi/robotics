@@ -1,0 +1,4 @@
+<launch>
+    <test pkg="arm_state_estimation" type="particle_filter.py" test-name="test_particle_filter">
+    </test>
+</launch>

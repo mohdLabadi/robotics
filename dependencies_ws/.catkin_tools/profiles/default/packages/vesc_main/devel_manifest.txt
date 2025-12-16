@@ -1,0 +1,5 @@
+cs4750_dependencies/vesc/vesc_main
+/home/maa366/dependencies_ws/devel/.private/vesc_main/cmake.lock /home/maa366/dependencies_ws/devel/./cmake.lock
+/home/maa366/dependencies_ws/devel/.private/vesc_main/lib/pkgconfig/vesc_main.pc /home/maa366/dependencies_ws/devel/lib/pkgconfig/vesc_main.pc
+/home/maa366/dependencies_ws/devel/.private/vesc_main/share/vesc_main/cmake/vesc_mainConfig.cmake /home/maa366/dependencies_ws/devel/share/vesc_main/cmake/vesc_mainConfig.cmake
+/home/maa366/dependencies_ws/devel/.private/vesc_main/share/vesc_main/cmake/vesc_mainConfig-version.cmake /home/maa366/dependencies_ws/devel/share/vesc_main/cmake/vesc_mainConfig-version.cmake

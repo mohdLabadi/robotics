@@ -1,0 +1,6 @@
+rviz_camera_stream
+/home/maa366/finalhomework_ws/devel/.private/rviz_camera_stream/cmake.lock /home/maa366/finalhomework_ws/devel/./cmake.lock
+/home/maa366/finalhomework_ws/devel/.private/rviz_camera_stream/lib/librviz_camera_stream.so /home/maa366/finalhomework_ws/devel/lib/librviz_camera_stream.so
+/home/maa366/finalhomework_ws/devel/.private/rviz_camera_stream/lib/pkgconfig/rviz_camera_stream.pc /home/maa366/finalhomework_ws/devel/lib/pkgconfig/rviz_camera_stream.pc
+/home/maa366/finalhomework_ws/devel/.private/rviz_camera_stream/share/rviz_camera_stream/cmake/rviz_camera_streamConfig.cmake /home/maa366/finalhomework_ws/devel/share/rviz_camera_stream/cmake/rviz_camera_streamConfig.cmake
+/home/maa366/finalhomework_ws/devel/.private/rviz_camera_stream/share/rviz_camera_stream/cmake/rviz_camera_streamConfig-version.cmake /home/maa366/finalhomework_ws/devel/share/rviz_camera_stream/cmake/rviz_camera_streamConfig-version.cmake

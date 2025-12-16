@@ -1,0 +1,8 @@
+<launch>
+
+  <include file="$(find car_state_estimation)/launch/particle_filter_teleop_sim.launch">
+    <arg name="map" value="$(find cs4750)/maps/cse2_2.yaml" />
+  </include>
+
+  <test pkg="car_state_estimation" type="test_particle_filter_publishers.py" test-name="test_particle_filter_publishers" />
+</launch>

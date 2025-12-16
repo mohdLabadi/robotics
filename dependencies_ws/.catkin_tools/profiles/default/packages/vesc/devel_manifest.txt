@@ -1,0 +1,2 @@
+cs4750_dependencies/vesc/vesc
+/home/maa366/dependencies_ws/devel/.private/vesc/cmake.lock /home/maa366/dependencies_ws/devel/./cmake.lock

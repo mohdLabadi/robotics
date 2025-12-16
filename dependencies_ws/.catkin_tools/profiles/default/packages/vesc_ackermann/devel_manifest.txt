@@ -1,0 +1,8 @@
+cs4750_dependencies/vesc/vesc_ackermann
+/home/maa366/dependencies_ws/devel/.private/vesc_ackermann/cmake.lock /home/maa366/dependencies_ws/devel/./cmake.lock
+/home/maa366/dependencies_ws/devel/.private/vesc_ackermann/lib/libvesc_ackermann_nodelet.so /home/maa366/dependencies_ws/devel/lib/libvesc_ackermann_nodelet.so
+/home/maa366/dependencies_ws/devel/.private/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc /home/maa366/dependencies_ws/devel/lib/pkgconfig/vesc_ackermann.pc
+/home/maa366/dependencies_ws/devel/.private/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node /home/maa366/dependencies_ws/devel/lib/vesc_ackermann/ackermann_to_vesc_node
+/home/maa366/dependencies_ws/devel/.private/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node /home/maa366/dependencies_ws/devel/lib/vesc_ackermann/vesc_to_odom_node
+/home/maa366/dependencies_ws/devel/.private/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake /home/maa366/dependencies_ws/devel/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+/home/maa366/dependencies_ws/devel/.private/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake /home/maa366/dependencies_ws/devel/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake

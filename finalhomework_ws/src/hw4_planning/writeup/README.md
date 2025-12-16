@@ -1,0 +1,33 @@
+# Project 4: Planning
+
+Replace this with your own writeup! Please place all figures and answer all questions in this directory.
+
+**Q1.2** 
+
+A* Shortest Path Figure: ...
+
+**Q2.1** 
+
+RRT Path Figure: ...
+
+**Q2.2** 
+
+RRT Path Figure: ...
+
+Planning time report: ...
+
+Your observation + reasoning: ...
+
+**Q3**
+
+A* beats RRT Figure: ...
+
+A* is better than RRT because ...
+
+RRT beats A* Figure: ...
+
+RRT is better than A* because ...
+
+**Q5**
+
+A* heuristic design decisions: ...

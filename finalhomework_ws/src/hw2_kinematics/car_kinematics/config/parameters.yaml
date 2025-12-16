@@ -1,0 +1,9 @@
+# TA kinematics model parameters
+
+motion_params:
+  vel_std:    0.10
+  alpha_std:  0.10
+  x_std:      0.10
+  y_std:      0.10
+  theta_std:  0.10
+

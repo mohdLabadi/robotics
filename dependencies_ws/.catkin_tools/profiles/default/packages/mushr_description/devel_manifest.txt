@@ -1,0 +1,20 @@
+cs4750_dependencies/mushr/mushr_description
+/home/maa366/dependencies_ws/devel/.private/mushr_description/cmake.lock /home/maa366/dependencies_ws/devel/./cmake.lock
+/home/maa366/dependencies_ws/devel/.private/mushr_description/lib/pkgconfig/mushr_description.pc /home/maa366/dependencies_ws/devel/lib/pkgconfig/mushr_description.pc
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/cmake/mushr_descriptionConfig.cmake /home/maa366/dependencies_ws/devel/share/mushr_description/cmake/mushr_descriptionConfig.cmake
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/cmake/mushr_descriptionConfig-version.cmake /home/maa366/dependencies_ws/devel/share/mushr_description/cmake/mushr_descriptionConfig-version.cmake
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/racecar-uw-nano-green-black.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/racecar-uw-nano-green-black.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/racecar-uw-nano.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/racecar-uw-nano.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/racecar-mit.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/racecar-mit.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/mushr_tx2.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/mushr_tx2.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/mushr_tx2_green_black.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/mushr_tx2_green_black.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/mushr_nano.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/mushr_nano.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/mushr_nano_teal_purple.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/mushr_nano_teal_purple.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/mushr_nano_red_white.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/mushr_nano_red_white.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/mushr_nano_purple_gold.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/mushr_nano_purple_gold.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/racecar-uw-tx2.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/racecar-uw-tx2.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/racecar-uw-tx2-green-black.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/racecar-uw-tx2-green-black.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/racecar-uw-nano-red-white.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/racecar-uw-nano-red-white.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/racecar-uw-nano-teal-purple.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/racecar-uw-nano-teal-purple.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/racecar-uw-nano-purple-gold.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/racecar-uw-nano-purple-gold.urdf
+/home/maa366/dependencies_ws/devel/.private/mushr_description/share/mushr_description/robots/mushr_nano_green_black.urdf /home/maa366/dependencies_ws/devel/share/mushr_description/robots/mushr_nano_green_black.urdf

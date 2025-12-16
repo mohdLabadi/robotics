@@ -1,0 +1,75 @@
+#!/usr/bin/env python
+
+import math
+
+import numpy as np
+import rospy
+import tf2_ros
+from geometry_msgs.msg import Point
+
+def figure_eight_publisher():
+    """
+    Publishes a figure 8 trajectory in the xy-plane.
+    """
+    # Initialize the node
+    rospy.init_node('figure_eight_publisher', anonymous=True)
+
+    # Set the publishing rate (e.g., 50 Hz)
+    rate = rospy.Rate(50)
+
+    # --- Trajectory Parameters ---
+    # Center of the figure 8
+    center_x = 0.4
+    center_y = 0.0
+    center_z = 0.4
+
+    # The "radii" of the lobes of the figure 8
+    x_radius = 0.1
+    y_radius = 0.1
+    z_amplitude = 0.05  # Amplitude of the vertical oscillation
+
+    # Frequency determines the speed of the trajectory
+    # Higher frequency = faster movement
+    frequency = 1 / float(rospy.get_param("period", 2.0))  # Default to 0.5 Hz if not set
+
+    # Get the initial time
+    start_time = rospy.get_time()
+    tf_broadcaster = tf2_ros.TransformBroadcaster()
+
+    rospy.loginfo("Starting figure 8 trajectory publisher...")
+
+    while not rospy.is_shutdown():
+        # Calculate elapsed time
+        elapsed_time = rospy.get_time() - start_time
+
+        # Parametric equations for a figure 8 (Lissajous curve)
+        # x(t) = A * sin(ωt)
+        # y(t) = B * sin(2ωt)
+        x = center_x + x_radius * math.sin(2 * np.pi * frequency * elapsed_time)
+        y = center_y + y_radius * math.sin(4 * np.pi * frequency * elapsed_time)
+        z = center_z + z_amplitude * math.sin(4 * np.pi * frequency * elapsed_time)# Z is constant
+
+        # Create an publish the TF for the target point
+        target_msg = tf2_ros.TransformStamped()
+        target_msg.header.stamp = rospy.Time.now()
+        target_msg.header.frame_id = "wx250s/base_link"
+        target_msg.child_frame_id = "target_frame"
+        target_msg.transform.translation.x = x
+        target_msg.transform.translation.y = y
+        target_msg.transform.translation.z = z
+        target_msg.transform.rotation.x = 0.5
+        target_msg.transform.rotation.y = -0.5
+        target_msg.transform.rotation.z = 0.5
+        target_msg.transform.rotation.w = 0.5
+
+        # Publish the TF message
+        tf_broadcaster.sendTransform(target_msg)
+
+        # Wait for the next cycle
+        rate.sleep()
+
+if __name__ == '__main__':
+    try:
+        figure_eight_publisher()
+    except rospy.ROSInterruptException:
+        pass

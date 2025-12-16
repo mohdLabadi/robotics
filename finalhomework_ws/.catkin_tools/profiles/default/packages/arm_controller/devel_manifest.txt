@@ -1,0 +1,8 @@
+hw5_control/arm_controller
+/home/maa366/finalhomework_ws/devel/.private/arm_controller/cmake.lock /home/maa366/finalhomework_ws/devel/./cmake.lock
+/home/maa366/finalhomework_ws/devel/.private/arm_controller/lib/pkgconfig/arm_controller.pc /home/maa366/finalhomework_ws/devel/lib/pkgconfig/arm_controller.pc
+/home/maa366/finalhomework_ws/devel/.private/arm_controller/lib/python3/dist-packages/arm_controller/__init__.py /home/maa366/finalhomework_ws/devel/lib/python3/dist-packages/arm_controller/__init__.py
+/home/maa366/finalhomework_ws/devel/.private/arm_controller/lib/arm_controller/cmake.lock /home/maa366/finalhomework_ws/devel/lib/arm_controller/cmake.lock
+/home/maa366/finalhomework_ws/devel/.private/arm_controller/lib/arm_controller/run_pid /home/maa366/finalhomework_ws/devel/lib/arm_controller/run_pid
+/home/maa366/finalhomework_ws/devel/.private/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake /home/maa366/finalhomework_ws/devel/share/arm_controller/cmake/arm_controllerConfig.cmake
+/home/maa366/finalhomework_ws/devel/.private/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake /home/maa366/finalhomework_ws/devel/share/arm_controller/cmake/arm_controllerConfig-version.cmake

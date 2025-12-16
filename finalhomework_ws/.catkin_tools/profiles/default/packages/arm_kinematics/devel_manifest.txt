@@ -1,0 +1,10 @@
+hw2_kinematics/arm_kinematics
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/cmake.lock /home/maa366/finalhomework_ws/devel/./cmake.lock
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/lib/pkgconfig/arm_kinematics.pc /home/maa366/finalhomework_ws/devel/lib/pkgconfig/arm_kinematics.pc
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/lib/python3/dist-packages/arm_kinematics/__init__.py /home/maa366/finalhomework_ws/devel/lib/python3/dist-packages/arm_kinematics/__init__.py
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/lib/arm_kinematics/cmake.lock /home/maa366/finalhomework_ws/devel/lib/arm_kinematics/cmake.lock
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/lib/arm_kinematics/fk_broadcaster /home/maa366/finalhomework_ws/devel/lib/arm_kinematics/fk_broadcaster
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/lib/arm_kinematics/kinematic_sim /home/maa366/finalhomework_ws/devel/lib/arm_kinematics/kinematic_sim
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/lib/arm_kinematics/target_broadcaster /home/maa366/finalhomework_ws/devel/lib/arm_kinematics/target_broadcaster
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/share/arm_kinematics/cmake/arm_kinematicsConfig.cmake /home/maa366/finalhomework_ws/devel/share/arm_kinematics/cmake/arm_kinematicsConfig.cmake
+/home/maa366/finalhomework_ws/devel/.private/arm_kinematics/share/arm_kinematics/cmake/arm_kinematicsConfig-version.cmake /home/maa366/finalhomework_ws/devel/share/arm_kinematics/cmake/arm_kinematicsConfig-version.cmake

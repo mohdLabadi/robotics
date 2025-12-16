@@ -1,0 +1,23 @@
+interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/cmake.lock /home/maa366/interbotix_ws/devel/./cmake.lock
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joy-msg-paths.cmake /home/maa366/interbotix_ws/devel/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joy-msg-paths.cmake
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joy-msg-extras.cmake /home/maa366/interbotix_ws/devel/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joy-msg-extras.cmake
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joyConfig.cmake /home/maa366/interbotix_ws/devel/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joyConfig.cmake
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joyConfig-version.cmake /home/maa366/interbotix_ws/devel/share/interbotix_xsarm_joy/cmake/interbotix_xsarm_joyConfig-version.cmake
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/roseus/ros/interbotix_xsarm_joy/manifest.l /home/maa366/interbotix_ws/devel/share/roseus/ros/interbotix_xsarm_joy/manifest.l
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/roseus/ros/interbotix_xsarm_joy/msg/ArmJoy.l /home/maa366/interbotix_ws/devel/share/roseus/ros/interbotix_xsarm_joy/msg/ArmJoy.l
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/common-lisp/ros/interbotix_xsarm_joy/msg/ArmJoy.lisp /home/maa366/interbotix_ws/devel/share/common-lisp/ros/interbotix_xsarm_joy/msg/ArmJoy.lisp
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/common-lisp/ros/interbotix_xsarm_joy/msg/_package_ArmJoy.lisp /home/maa366/interbotix_ws/devel/share/common-lisp/ros/interbotix_xsarm_joy/msg/_package_ArmJoy.lisp
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/common-lisp/ros/interbotix_xsarm_joy/msg/_package.lisp /home/maa366/interbotix_ws/devel/share/common-lisp/ros/interbotix_xsarm_joy/msg/_package.lisp
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/common-lisp/ros/interbotix_xsarm_joy/msg/interbotix_xsarm_joy-msg.asd /home/maa366/interbotix_ws/devel/share/common-lisp/ros/interbotix_xsarm_joy/msg/interbotix_xsarm_joy-msg.asd
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/gennodejs/ros/interbotix_xsarm_joy/_index.js /home/maa366/interbotix_ws/devel/share/gennodejs/ros/interbotix_xsarm_joy/_index.js
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/gennodejs/ros/interbotix_xsarm_joy/msg/ArmJoy.js /home/maa366/interbotix_ws/devel/share/gennodejs/ros/interbotix_xsarm_joy/msg/ArmJoy.js
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/share/gennodejs/ros/interbotix_xsarm_joy/msg/_index.js /home/maa366/interbotix_ws/devel/share/gennodejs/ros/interbotix_xsarm_joy/msg/_index.js
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/include/interbotix_xsarm_joy/ArmJoy.h /home/maa366/interbotix_ws/devel/include/interbotix_xsarm_joy/ArmJoy.h
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/lib/python3/dist-packages/interbotix_xsarm_joy/__init__.py /home/maa366/interbotix_ws/devel/lib/python3/dist-packages/interbotix_xsarm_joy/__init__.py
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/lib/python3/dist-packages/interbotix_xsarm_joy/msg/_ArmJoy.py /home/maa366/interbotix_ws/devel/lib/python3/dist-packages/interbotix_xsarm_joy/msg/_ArmJoy.py
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/lib/python3/dist-packages/interbotix_xsarm_joy/msg/__init__.py /home/maa366/interbotix_ws/devel/lib/python3/dist-packages/interbotix_xsarm_joy/msg/__init__.py
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/lib/pkgconfig/interbotix_xsarm_joy.pc /home/maa366/interbotix_ws/devel/lib/pkgconfig/interbotix_xsarm_joy.pc
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/lib/interbotix_xsarm_joy/cmake.lock /home/maa366/interbotix_ws/devel/lib/interbotix_xsarm_joy/cmake.lock
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/lib/interbotix_xsarm_joy/xsarm_robot /home/maa366/interbotix_ws/devel/lib/interbotix_xsarm_joy/xsarm_robot
+/home/maa366/interbotix_ws/devel/.private/interbotix_xsarm_joy/lib/interbotix_xsarm_joy/xsarm_joy /home/maa366/interbotix_ws/devel/lib/interbotix_xsarm_joy/xsarm_joy
